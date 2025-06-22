@@ -1,0 +1,15 @@
+{
+  "name": "reporte-semanal-seguridad-strong",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "correo_reportes_script.js",
+  "scripts": {
+    "start": "node correo_reportes_script.js",
+    "run": "node correo_reportes_script.js --run"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.10"
+  }
+}
